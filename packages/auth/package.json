@@ -1,0 +1,21 @@
+{
+  "name": "@mts/auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "devDependencies": {
+    "@mts/eslint-config": "workspace:*",
+    "@mts/prettier": "workspace:*",
+    "@mts/tsconfig": "workspace:*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@mts/eslint-config/library"
+    ]
+  },
+  "prettier": "@mts/prettier",
+  "dependencies": {
+    "@casl/ability": "^6.7.1"
+  }
+}
