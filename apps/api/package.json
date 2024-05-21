@@ -8,17 +8,23 @@
     "@fastify/cors": "^9.0.1",
     "@mts/auth": "workspace:*",
     "@prisma/client": "5.14.0",
+    "bcryptjs": "^2.4.3",
     "fastify": "^4.27.0",
     "fastify-type-provider-zod": "^1.2.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@mts/eslint-config": "workspace:*",
     "@mts/prettier": "workspace:*",
     "@mts/tsconfig": "workspace:*",
+    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^20.12.12",
     "prisma": "^5.14.0",
     "tsx": "^4.10.5"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   },
   "prettier": "@mts/prettier",
   "eslintConfig": {
