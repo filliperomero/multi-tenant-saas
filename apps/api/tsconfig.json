@@ -1,0 +1,4 @@
+{
+  "extends": "@mts/tsconfig/node.json",
+  "include": ["src/**/*"]
+}
