@@ -1,0 +1,4 @@
+{
+  "extends": "@mts/tsconfig/library.json",
+  "include": ["index.ts"]
+}
